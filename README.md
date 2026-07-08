@@ -29,7 +29,8 @@ The contribution included:
 - Database queries and schema interactions
 - Integration with existing authentication and authorization flows
 
-The feature was accepted upstream and became part of the production project.
+The contribution was reviewed and merged upstream:
+- Catalog Filter feature ([#3260](https://github.com/ampache/ampache/pull/3260))
 
 ### Kubernetes CI/CD Pipeline
 
