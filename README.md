@@ -1,35 +1,48 @@
 # Hi, I'm Troy
 
-I'm an infrastructure engineer focused on Linux, networking, automation, and distributed systems.
+I'm an infrastructure engineer focused on building reliable systems through automation, software, and thoughtful operational design.
 
-I enjoy building and operating reliable infrastructure, from virtualization and storage to Kubernetes platforms and the tooling that supports them.
+My career has centered around Linux, networking, distributed systems, and infrastructure platforms. I enjoy building the tools and software that make those systems easier to deploy, secure, and maintain.
 
-Current projects:
-- Migrating self-hosted services from Docker to Kubernetes
-- Building and experimenting with Kubernetes, Ceph, and infrastructure automation
-- Exploring Go for infrastructure tooling
+I tend to work at the boundary between infrastructure and software: automating repetitive tasks, improving reliability, and building solutions that make complex systems easier to operate.
 
-Technologies I work with:
-- Linux
-- Kubernetes
-- Terraform
-- Ansible
-- Docker
-- Python
-- Bash
-- Networking
+## Areas of interest
 
-<!--
-**troycarpenter/troycarpenter** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Kubernetes and container platforms
+- Infrastructure automation and CI/CD workflows
+- Linux systems and networking
+- Distributed systems and reliability
+- Security and access control
+- Infrastructure tooling and software development
 
-Here are some ideas to get you started:
+## Selected Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Ampache
+
+Contributor to Ampache, an open-source media server platform.
+
+Implemented a library-level authorization feature that allows administrators to control resource visibility based on user permissions.
+
+The contribution included:
+- PHP backend development
+- Frontend updates
+- Database queries and schema interactions
+- Integration with existing authentication and authorization flows
+
+The feature was accepted upstream and became part of the production project.
+
+### Kubernetes CI/CD Pipeline
+
+Built an end-to-end deployment workflow using Go, Jenkins, Docker, Harbor, and Kubernetes.
+
+The application itself is intentionally minimal. The focus of the project is validating the delivery pipeline:
+
+- Source changes trigger Jenkins builds
+- Go application compilation
+- Container image creation
+- Publishing images to Harbor
+- Deployment into a k3s Kubernetes cluster
+
+### Infrastructure Automation
+
+Various Python, Bash, and scripting projects focused on automating operational tasks and improving infrastructure workflows.
