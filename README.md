@@ -47,3 +47,7 @@ The application itself is intentionally minimal. The focus of the project is val
 ### Infrastructure Automation
 
 Various Python, Bash, and scripting projects focused on automating operational tasks and improving infrastructure workflows.
+
+### Azuracast Dashboard
+
+I built this dashboard to provide a quick level view of what each radio station is playing, and the ability to quickly switch listening between the stations.  I later added media session data so that the meta data would be displayed on Bluetooth devices like car headunits.
